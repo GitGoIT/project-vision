@@ -28,7 +28,7 @@
                width: 1072px;
                height: 525px;
                border-radius: 10px;
-               background-image: linear-gradient(89deg, #0C0B0B 0%, rgba(30, 30, 30, 0.00) 100%), url("../../images/hero-bgr2x.png");
+               background-image: linear-gradient(89deg, #0C0B0B 0%, rgba(30, 30, 30, 0.00) 100%), url("../../images/hero-bgr1x.png");
      }
 }
 .dronWrapper {
