@@ -1,13 +1,93 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import-normalize; /* bring in normalize.css styles */
+
+:root {
+  --main-color-white: #FFF;
+  --main-color-yellow: #FFCD00;
+  --main-color-dark-blue: #253746;
+  --main-color-light-gray: #F5F5F5;
+  --tint-dark-blue-3: #D3DDE6;
+  --tint-yellow-4: #FFE780;
+  --tint-yellow-3: #FDDD3F;
+  --hover-light-blue:  rgb(0, 102, 255);
+
+  --shadow-default: 3px 8px 14px rgba(136, 198, 253, 0.19);
+  --shadow-hover: 7px 13px 14px rgba(116, 177, 232, 0.24);
+
+  --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--main-color-white);
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+img {
+  display: block;
+  margin-right: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
