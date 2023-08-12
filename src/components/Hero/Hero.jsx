@@ -8,7 +8,7 @@ const Hero = () => {
       <div className={css.titleWrapper}>
         <div className={css.dronWrapper}></div>
         <h1 className={css.title}>
-          MILITARY OBJECTS <span className={css.titleSpan}>DETECTION</span>
+          {/* MILITARY OBJECTS <span className={css.titleSpan}>DETECTION</span> */}
         </h1>
       </div>
     </section>
