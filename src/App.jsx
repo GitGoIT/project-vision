@@ -1,32 +1,32 @@
-// import Header from "./components/Header/Header";
+import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
-// import About from "./components/About/About";
-// import Problem from "./components/Problem/Problem";
-// import Solution from "./components/Solution/Solution";
-// import Samples from "./components/Samples/Samples";
-// import Steps from "./components/Steps/Steps";
-// import Team from "./components/Team/Team";
-// import Contacts from "./components/Contacts/Contacts";
-// import Feedback from "./components/Feedback/Feedback";
+import About from "./components/About/About";
+import Problem from "./components/Problem/Problem";
+import Solution from "./components/Solution/Solution";
+import Samples from "./components/Samples/Samples";
+import Steps from "./components/Steps/Steps";
+import Team from "./components/Team/Team";
+import Contacts from "./components/Contacts/Contacts";
+import Feedback from "./components/Feedback/Feedback";
 
-// import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <main>
         <Hero />
-        {/* <About />
+        <About />
         <Problem />
         <Solution />
         <Samples />
         <Steps />
         <Team />
         <Contacts />
-        <Feedback /> */}
+        <Feedback />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

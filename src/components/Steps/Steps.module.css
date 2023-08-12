@@ -1,0 +1,87 @@
+.section {
+    width: 100%;
+    height: 100%;
+    padding: 23px 0 73px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: var(--main-color-white);
+
+         @media (min-width: 1020px) {
+                  padding: 51px 0 97px 0;
+     }
+}
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -1.2px;
+    color: var(--main-color-dark-blue);
+    margin: 0 0 39px 0;
+
+         @media (min-width: 1020px) {
+                  text-align: left;
+                  font-size: 50px;
+                  letter-spacing: -2px;
+                  margin: 0 0 67px 0;
+     }
+}
+.contentWrapper {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 49px; 
+
+         @media (min-width: 1020px) {
+                  flex-direction: row;
+                  gap: 90px;             
+     }
+}
+.stepsList {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.stepsItem {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+
+         @media (min-width: 1020px) {
+                  gap: 24px;            
+     }
+}
+.stepsItem::before {
+    content: url("../../images/icons/arrow-square-right32x32.svg");
+    display: inline-block;
+    margin-top: -2px;
+
+         @media (min-width: 1020px) {
+                  margin-top: 0;           
+     }
+}
+.itemWrapper {
+    width: 255px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    letter-spacing: -0.72px;
+    color: var(--main-color-dark-blue);
+
+         @media (min-width: 1020px) {
+                  width: 435px;
+                  font-size: 22px;
+                  line-height: 30.4px;
+                  letter-spacing: -0.88px;            
+     }
+}
+.cameraImage {
+    width: 309px;
+    border-radius: 20px;
+
+         @media (min-width: 1020px) {
+                  width: 400px;           
+     }
+}

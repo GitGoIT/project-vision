@@ -1,0 +1,195 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputList {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 0;
+
+         @media (min-width: 1020px) {
+                 font-size: 36px;
+                 gap: 50px;
+     }
+}
+.input{
+    position: relative;
+    width: 280px;
+    height: 48px;
+    padding: 12px 16px;
+    border: 1px solid var(--main-color-yellow);
+    border-radius: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #888888;
+    background-color: var(--main-color-white);
+
+        @media (min-width: 1020px) {
+                 width: 520px; 
+                 height: 55px;
+                 padding: 14px 19px;
+                 font-size: 22px;
+     }
+}
+.errorInput {
+    border: 1px solid #F43F5E;
+}
+.validInput {
+    border: 1px solid #00C3AD;
+}
+.errorMessageName {
+    position: absolute;
+    margin-left: 18px;
+    margin-top: 49px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #F43F5E;
+
+       @media (min-width: 1020px) {
+                 margin-left: 21px;
+                 margin-top: 55px;
+                 font-size: 16px;
+     }
+}
+.validMessageName {
+    position: absolute;
+    margin-left: 18px;
+    margin-top: 49px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #00C3AD;
+
+     @media (min-width: 1020px) {
+                 margin-left: 21px;
+                 margin-top: 55px;
+                 font-size: 16px;
+     }
+}
+.errorMessageEmail {
+    position: absolute;
+    margin-left: 18px;
+    margin-top: 121px;    
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #F43F5E;
+
+        @media (min-width: 1020px) {
+                 margin-left: 21px;
+                 margin-top: 160px;
+                 font-size: 16px;
+     }
+}
+.validMessageEmail {
+    position: absolute;
+    margin-left: 18px;
+    margin-top: 121px;   
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #00C3AD;
+    
+     @media (min-width: 1020px) {
+                 margin-left: 21px;
+                 margin-top: 160px;
+                 font-size: 16px;
+     }
+}
+.errorMessagePhone {
+    position: absolute;
+    margin-left: 18px;
+    margin-top: 193px;  
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #F43F5E;
+
+        @media (min-width: 1020px) {
+                 margin-left: 21px;
+                 margin-top: 265px;
+                 font-size: 16px;
+     }
+}
+.validMessagePhone {
+    position: absolute;
+    margin-left: 18px;
+    margin-top: 193px;  
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #00C3AD;
+
+        @media (min-width: 1020px) {
+                 margin-left: 21px;
+                 margin-top: 265px;
+                 font-size: 16px;
+     }
+}
+.close {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    fill: #F43F5E;
+    margin-top: -37px;
+    margin-left: 226px;
+
+         @media (min-width: 1020px) {
+                  width: 25px;
+                  height: 25px;
+                  margin-top: -40px;
+                  margin-left: 456px;
+     }
+}
+.valid {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    fill: #00C3AD;
+    margin-top: -37px;
+    margin-left: 226px;
+
+      @media (min-width: 1020px) {
+                  width: 25px;
+                  height: 25px;
+                  margin-top: -40px;
+                  margin-left: 456px;
+     }
+}
+.btnWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn {
+  display: flex;
+  width: 280px;
+  height: 50px;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  background: var(--main-color-yellow);
+  color: var(--main-color-dark-blue);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  transition: var(--transition-dur-and-func);
+
+         @media (min-width: 1020px) {
+                 border-radius: 8px;
+                 height: 64px;
+                 font-size: 22px;        
+     } 
+}
+.btn:hover {
+    background: var(--hover-light-blue);
+    color: var(--main-color-white);
+}
+

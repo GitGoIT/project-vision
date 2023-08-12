@@ -1,0 +1,91 @@
+.section {
+    padding: 34px 0 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background: var(--main-color-dark-blue);
+
+         @media (min-width: 1020px) {
+                 padding: 120px 0 0 0;
+     } 
+}
+.contentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 32px;
+    margin-bottom: 55px;
+
+    @media (min-width: 1020px) {
+                 flex-direction: row;
+                 gap: 234px;
+                 margin-bottom: 120px;
+     } 
+}
+.link {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+
+   font-size: 18px;
+   font-weight: 600;
+   letter-spacing: 0.2px;
+   line-height: 22px;
+   color: var(--main-color-white);
+   transition: var(--transition-dur-and-func);
+
+   @media (min-width: 1020px) {
+                 font-size: 22px;
+     }
+}
+.link::before {
+    content: url("../../images/icons/linkedin35x35.svg");
+    display: inline-block;	
+}
+.link:hover {
+    color: var(--hover-light-blue);
+}
+.logoWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+    width: 360px;
+    height: 50px;
+    border-radius: 4px;
+    background: linear-gradient(to right , var(--main-color-dark-blue),var(--main-color-light-gray) 60%);
+
+             @media (min-width: 1020px) {
+                   width: 400px;
+                   height: 60px;
+     }
+}
+.logo {
+    width: 180px;
+    margin-right: 10px;
+    margin-left: auto;
+
+     @media (min-width: 1020px) {
+                   width: 230px;
+                   margin-right: 20px;
+     }
+}
+.copyright {
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+    color: #436180a6;
+    margin-bottom: 20px;
+    cursor: default;
+
+         @media (min-width: 1020px) {
+                   font-size: 14px;
+     }
+}
+.copyrightLink {
+    text-decoration: underline;
+}

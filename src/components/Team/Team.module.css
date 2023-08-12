@@ -1,0 +1,106 @@
+.section {
+    width: 100%;
+    height: 100%;
+    padding: 23px 0 54px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: var(--main-color-white);
+
+         @media (min-width: 1020px) {
+                  padding: 51px 0 95px 0;          
+     }
+}
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -1.2px;
+    color: var(--main-color-dark-blue);
+    margin-bottom: 46px;
+
+         @media (min-width: 1020px) {
+                font-size: 50px;
+                letter-spacing: -2px;
+                margin-bottom: 71px;         
+     }
+}
+.teamList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    gap: 50px;
+
+         @media (min-width: 1020px) {
+               display: flex;
+                flex-direction: row; 
+     }
+}
+.teamItem {
+     width: 260px;
+
+           @media (min-width: 1020px) {
+                 width: 280px;
+     }
+
+}
+.itemWrapper {
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    gap: 11px;
+        
+    font-size: 27px;
+    font-weight: 400;
+    letter-spacing: -1.081px;
+    color: var(--main-color-dark-blue);
+
+         @media (min-width: 1020px) {
+                
+                 font-size: 30px;
+                 letter-spacing: -1.248px;
+     }
+}
+.imageWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 218px;
+    height: 218px;
+    border: 2px solid var(--main-color-yellow);
+    border-radius: 50%;
+
+         @media (min-width: 1020px) {
+                 width: 252px;
+                 height: 252px;
+     }
+}
+.teamImage {
+    width: 198px;
+    height: 198px;
+
+         @media (min-width: 1020px) {
+                 width: 229px;
+                 height: 229px;
+     }
+}
+.textWrapper {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+
+           @media (min-width: 1020px) {
+                 width: 280px;
+     }
+}
+.teamName {
+    font-weight: 700;
+}
